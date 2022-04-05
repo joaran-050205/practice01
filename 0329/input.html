@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        text : <input type="text">
+        <!-- 아무 글자 삽입하는 input -->
+        <br>
+        전화번호 : <input type="password">
+        <!-- 가려서 나오는 input -->
+        <br>
+        E-mail : <input type="email" required>
+        <!-- 이메일 사용하는 인풋, required는 type에 맞춰 검사하는 역할 -->
+        <br>
+        tel : <input type="tel" required>
+        <!-- 전화번호 -->
+        <br><br>
+        <input type="submit" value="버튼">
+        <!-- 데이터를 전송할 때 쓰는 버튼 -->
+        <br><br>
+
+        <input type="radio" name="1">
+        <input type="radio" name="1">
+        <input type="radio" name="2">
+        <input type="radio" name="2">
+        <!-- name에 따라 하나만 선택할 수 있게 하는 선택요소 -->
+        <br>
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <input type="checkbox" name="">
+        <!-- 상관없이 중복 선택할 수 있는 요소 -->
+
+        <fieldset style="width: 100px; height: 50px; background-color: skyblue; color: blueviolet;">
+            <legend>제목</legend>
+            <br>
+            <input type="text">
+            <br>
+        </fieldset>
+        <!-- fieldset 간단한 구역, 폼을 만들어주는 요소
+            legend fieldset의 제목을 나타냄 -->
+
+        <input type="time">
+        <!-- 시간을 선택할 수 있도록 하는 요소 -->
+        <input type="datetime-local">
+        <!-- 시간과 날짜를 선택할 수 있도록 하는 요소 -->
+
+        <select>
+            <option value="1">asdf</option>
+            <option value="1">qwer</option>
+            <option value="1">zxcv</option>
+            <option value="1">tyui</option>
+        </select>
+        <!-- option의 개수만틈 선택창을 만드는 요소 -->
+
+        <label for="">text :</label>
+        <!-- input앞에 글씨를 감싸는 요소, label이 있으면 input을 선택하지 않고 label을 선택해도 인식함 -->
+
+        <textarea cols="30" rows="10"></textarea>
+        <!-- 많은 글씨를 적을 수 있는 요소 -->
+
+    </form>
+    <!-- form으로 input으로 감싸주어야 데이터가 전송이 됨 -->
+</body>
+</html>

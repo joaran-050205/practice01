@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="name">고객명 : </label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    <label for="phone">전화번호 : </label>
+    <input type="tel" name="phone" id="phone">
+    <br><br>
+    <label for="email">E-mail : </label>
+    <input type="email" name="email" id="email">
+    <br><br>
+    피자선택 : 
+    <select>
+        <option value="1">피자를 선택하세요</option>
+        <option value="1">치즈 퐁듀 파이어 미트</option>
+        <option value="1">블록버스터4</option>
+        <option value="1">글로벌 레전드4</option>
+        <option value="1">블랙앵거스 스테이크</option>
+        <option value="1">베스트 콰트로</option>
+        <option value="1">블랙타이거 슈림프</option>
+    </select>
+    <br><br>
+    <fieldset style="width: 300px; height: 130px;">
+        <legend>피자 사이즈</legend>
+        <input type="radio" name="1"> Small
+        <br><br>
+        <input type="radio" name="1"> Medium
+        <br><br>
+        <input type="radio" name="1"> Large
+    </fieldset>
+    <br>
+    <fieldset style="width: 300px; height: 180px;">
+        <legend>토핑 선택</legend>
+        <input type="checkbox" name=""> 베이컨
+        <br><br>
+        <input type="checkbox" name=""> 치즈
+        <br><br>
+        <input type="checkbox" name=""> 양파
+        <br><br>
+        <input type="checkbox" name=""> 버섯
+    </fieldset>
+    희망 배송 시간 : <input type="time">
+    <br>
+    배송시 요청사항 : <textarea cols="25" rows="10"></textarea>
+    <br>
+    <input type="submit" value="주문하기">
+</body>
+</html>
